@@ -1,0 +1,22 @@
+.rating-star {
+  display: flex;
+}
+
+.star {
+  color: #C5C5C5;
+  transition: 0.2s all;
+}
+
+.star:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.rating-star:has(.star:hover) .star {
+  color: black;
+}
+
+.rating-star .star:hover ~ .star {
+  color: #C5C5C5;
+}
+

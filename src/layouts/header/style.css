@@ -1,0 +1,43 @@
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.header .header-nav ul {
+  display: flex;
+  gap: 28px;
+}
+
+.header .header-nav ul li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.header .header-nav ul li:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header .header-nav ul li:hover {
+  font-weight: 600;
+}
+
+.header .header-buttons {
+  display: flex;
+  gap: 12px;
+}
